@@ -4,8 +4,8 @@ published: true
 ---
 # Tools Yang Umum Digunakan
 Kategori Web Exploitation:
-1. [JWT (JSON Web Token)](https://token.dev/)
-2. [Deobfuscate Kode JS](https://deobfuscate.io/)
+1. [JWT (JSON Web Token)](https://token.dev/){:target="_blank"}
+2. [Deobfuscate Kode JS](https://deobfuscate.io/){:target="_blank"}
 
 # Kode Penting
 SQL Injection
