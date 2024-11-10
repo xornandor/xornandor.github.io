@@ -2,12 +2,12 @@
 title: Semua Tentang CTF - Kategori Web Exploitation
 published: true
 ---
-## Tools
+# Tools
 Kategori Web Exploitation:
-1. JWT (JSON Web Token) - https://token.dev/
-2. Deobfuscate Kode JS - https://deobfuscate.io/
+1. JWT (JSON Web Token) - [](https://token.dev/)
+2. Deobfuscate Kode JS - [](https://deobfuscate.io/)
 
-## Kode
+# Kode
 SQL Injection
 ```sql
 ' OR 1=1 OR '1'='1
