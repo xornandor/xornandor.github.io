@@ -2,11 +2,12 @@
 title: Semua Tentang CTF - Kategori Web Exploitation
 published: true
 ---
-# Tools Yang Umum Digunakan
+# Tools dan File yang Umum Digunakan
 Kategori Web Exploitation:
 1. [JWT (JSON Web Token) - Cookie dengan JAuth](https://token.dev/){:target="_blank"}
 2. [Deobfuscate - Kode JS yang Sulit Dibaca](https://deobfuscate.io/){:target="_blank"}
 3. [John The Ripper - Brutefore JWT Signature Key](https://github.com/openwall/john-packages){:target="_blank"}
+4. [Rockyou Wordlist - Kumpulan Kata untuk Bruteforce CTF](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt){:target="_blank"}
 
 # Kode Penting
 SQL Injection
