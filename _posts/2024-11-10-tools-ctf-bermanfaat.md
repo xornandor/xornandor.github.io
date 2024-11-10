@@ -2,12 +2,12 @@
 title: Semua Tentang CTF - Kategori Web Exploitation
 published: true
 ---
-# Tools
+# Tools Yang Umum Digunakan
 Kategori Web Exploitation:
 1. [JWT (JSON Web Token)](https://token.dev/)
 2. [Deobfuscate Kode JS](https://deobfuscate.io/)
 
-# Kode
+# Kode Penting
 SQL Injection
 ```sql
 ' OR 1=1--
@@ -36,4 +36,19 @@ PHP Webshell (Execute Linux Command) dari [joswr1ght](gist.github.com/joswr1ght)
 </pre>
 </body>
 </html>
+```
+
+# Catatan Tambahan Untuk Belajar
+## Comment Pada SQL
+```sql
+SELECT * FROM Customers -- WHERE City='Berlin';
+```
+```sql
+/*Select all the columns
+of all the records
+in the Customers table:*/
+SELECT * FROM Customers;
+```
+```sql
+SELECT CustomerName, /*City,*/ Country FROM Customers;
 ```
