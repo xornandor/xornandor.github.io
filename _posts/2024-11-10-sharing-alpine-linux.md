@@ -13,7 +13,7 @@ Alpine Linux dibangun dengan musl, standar pustaka bahasa C untuk distro linux. 
 
 Standar pustaka glibc dirancang untuk menyediakan kompatibilitas maksimal dengan berbagai sistem GNU/Linux, mendukung banyak ekstensi POSIX, GNU, dan fitur tambahan yang tidak dimiliki oleh musl. Selain itu, glibc juga dirancang dengan dynamic linking yang berarti aplikasi bergantung pada pustaka yang di-load saat runtime, yang bisa menambah ukuran memori.
 
-Keduanya tentunya sama-sama memiliki kelebihan dan kekurangan, standar pustaka musl tidak mendukung aplikasi yang dikompilasi menggunakan glibc tidak dapat berjalan langsung pada sistem yang hanya menggunakan musl, dan sebaliknya, karena kedua pustaka ini memiliki perbedaan mendasar dalam implementasi dan ABI (Application Binary Interface).
+Keduanya tentunya sama-sama memiliki kelebihan dan kekurangan, standar pustaka musl tidak mendukung aplikasi yang dikompilasi menggunakan glibc, dan sebaliknya, karena kedua pustaka ini memiliki perbedaan mendasar dalam implementasi dan ABI (Application Binary Interface).
 
 # Perbedaan dengan Distro Lain
 Alpine Linux fokus pada keamanan dengan fitur-fitur seperti Position Independent Executables (PIE) dan stack smashing protection (ssp). Karena menggunakan musl, beberapa aplikasi yang tergantung pada glibc mungkin memerlukan penyesuaian. Oleh karena itu, Alpine cocok untuk microservices, aplikasi yang di-container-kan, dan sistem tertanam, tetapi kurang cocok untuk aplikasi yang bergantung pada glibc atau membutuhkan lingkungan pengembangan yang lebih komprehensif.
